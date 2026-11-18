@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const CONTACT = {
-  email: "contact@omc-developpement.tn",
+  email: "contact@mks-developpement.tn",
   phone: "+21656302645", 
   whatsapp: "21656302645", 
   city: "Tunis, Tunisie",
@@ -100,16 +100,16 @@ function Logo() {
     <a
       className="logo"
       href="#top"
-      aria-label="OMC Développement, retour en haut"
+      aria-label="Make It Smart Développement, retour en haut"
     >
       <img
         src="/logo.jpg"
-        alt="Logo OMC Développement"
+        alt="Logo Make It Smart Développement"
         className="logo-image"
       />
 
       <span className="logo-text">
-        <strong>OMC</strong> Développement
+        <strong>Make It Smart</strong> Développement
       </span>
     </a>
   );
